@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Roboto+Mono:wght@400;500&display=swap');
+
+
+.product{
+    list-style-type: none;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 21px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.theItem{
+    display: flex;
+    margin-top: 30px;
+}
+
+.itemInfo{
+    width: 500px;
+    margin-left: 100px;
+    
+}
+
+.itemImg{
+    width: 14vw;
+    margin-left: 14vw;
+}
+
+.fistLineInfo{
+    display: flex;
+}
+.gameName{
+    font-weight: 500;
+    font-size: 27px;
+    letter-spacing: 0.05em;
+}
+.gamePrice{
+    font-weight: 400;
+    font-size: 21px;
+    letter-spacing: 0.05em;
+    margin-left: 50%;
+}
+
+.editBtn{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+.editBtnImg{
+   width: 30px;
+   margin-left: 50px;
+}
+
+.quantityInfo{
+    line-height: 10px;
+}
+
+.commentsShowBtn{
+    color: #673434;
+    text-decoration-line: underline;
+}
+.commentsShowBtn:hover{
+    color: #641414;
+    text-decoration-line: underline;
+}
+
+.lineAfterAnItem{
+    height: 0.3px;
+    width: 60%;
+    background-color: #000000;
+    opacity: 0.3;
+    margin: 0 auto;
+    margin-top: 30px;
+}
