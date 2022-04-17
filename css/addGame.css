@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Roboto+Mono:wght@200;300;400;500&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+    background-color: #F1E8DB;
+}
+
+a{
+    text-decoration: none;
+    color: #7A7A7A;
+}
+a:hover{
+    color: #7A7A7A;
+}
+
+#header{
+    background-color: #261906;
+    display: flex;
+    height: 10vh;
+    padding: 2vh;
+}
+#name{
+    font-family: 'Roboto Condensed';
+    font-size: 30px;
+    color: white;
+}
+
+/* Navigation */
+#navigation{
+    background-color: #13110E;
+    
+    color: #7A7A7A;
+    font-size: 21px;
+    text-decoration: none;
+    padding: 1vh;
+    padding-bottom: 2vh;
+}
+
+
+.editItemBlock{
+    width: 1082px;
+    height: 783px;
+    border: 0.5px #13110E dotted;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-left: 215px;
+}
+
+.editItemBlock_content{
+    margin: 0 auto;
+    margin-top: 14px;
+    width: 1025px;
+    height: 753px;
+}
+
+
+.img_drop_zone{
+    width: 180px;
+    height: 250px;
+    border: 1.7px dashed rgb(91, 91, 91);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+.img_drop_zone--over{
+    border: 2px solid #ef710a;
+}
+.img_drop_input{
+    display: none;
+}
+.drop_zone_thumb{
+    
+    width: 100%;
+    height: 95%;
+    
+    background-color: #7A7A7A;
+    border-radius: 10px;
+    background-size: cover;
+    position: relative;
+}
+.drop_zone_thumb::after{
+    content: attr(data-label);
+    position: absolute;
+    width: 100%;
+    height: 13%;
+    bottom: 0;
+    left:0;
+    border-radius: 0px 0px 10px 10px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 200;
+    color: rgb(243, 243, 243);
+    background-color: rgba(24, 24, 24, 0.8);
+}
+
+#name_input{
+    width: 395px;
+    height: 27px;
+    border: none;
+    font-weight: 300;
+}
+#price_input{
+    margin-left: 290px;
+    width: 80px;
+    height: 27px;
+    text-align: center;
+    border: none;
+    font-weight: 300;
+}
+
+#descr_input{
+    width: 812px;
+    height: 468px;
+    font-weight: 300;
+    border: none;
+}
